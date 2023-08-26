@@ -1,0 +1,320 @@
+.mainContainer {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+}
+
+.mainArea{
+    background-color: #80858B;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 100%;
+}
+
+.pgTitles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.mainContainer h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.contentArea{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;
+    background-color: #F7F8FA;
+    max-height: auto !important;
+    position: relative;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.calTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    width: 150px;
+    /* identical to box height, or 150% */
+
+
+    /* Default/gray/700 */
+
+    color: #374151;
+}
+
+.calContainer {
+    margin-top: 20px;
+    min-width: 100px;
+}
+
+.calTitle{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.calTitle h6 {
+    background-color: white;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropDow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 25px 25px;
+    width: 150px;
+    background: #FFFFFF;
+    position: absolute;
+    top:195px;
+    z-index: 1000;
+}
+
+.dropDow ul {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    /* Default/gray/700 */
+    color: #374151;
+    list-style: none;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.dropDow ul li {
+    padding-top: 10px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.cardSection{
+}
+
+.tableButton{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    /* Default/gray/500 */
+
+    color: #6B7280;
+}
+
+.mainTableArea {
+    width: 74%;
+}
+
+.mainTable {
+    width: 80%;
+}
+.sideContent {
+    width: 25%;
+    padding: 0px 15px;
+
+}
+
+.recentSale {
+    width: 100%;
+    height: 329px;
+    padding: 30px;
+    border-radius: 10px;
+        /* identical to box height, or 143% */
+    color: #000000;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    background-color: #FFFFFF;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.02));
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.02));
+    /* Neutral Colors/500 */
+    border: 1px solid #E5E5EF;
+}
+
+.recentSale h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+
+
+}
+
+.recentSale h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 0px;
+    padding-top: 0px;
+    /* identical to box height, or 233% */
+
+
+    color: #B2B1BD;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 500;
+}
+
+.percentRise{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    /* identical to box height, or 162% */
+    /* Neutral Colors/Black */
+    color: #1E1B39;
+}
+
+.rise {
+    /* Text single/200/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* Neutral Colors/Black */
+    display: flex;
+    flex-direction: column;
+    color: #1E1B39;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.graphImg{
+    width: 90%;
+    position: relative;
+}
+
+.withdrawFunds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: space-between;
+    align-content: space-between;
+    align-items: center;
+    border-radius: 0px;
+
+    margin-top: 20px;
+    padding-top: 40px;
+    border-radius: 10px;
+        /* identical to box height, or 143% */
+    color: #000000;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    background-color: #FFFFFF;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.02));
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.02));
+    /* Neutral Colors/500 */
+    border: 1px solid #E5E5EF;
+    min-height: 332px;
+}
+.withdrawFunds img{
+    scale: 1.5;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1284px) {
+    .mainTableArea {
+        width: 100%;
+    }
+
+    .sideContent {
+        padding: 15px;
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .mainTableArea {
+        width: 100%;
+    }
+
+    .contentArea{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        padding-left: 70px;
+        padding-right: 70px;
+        width: 100%;
+        background-color: #F7F8FA;
+        overflow: scroll;
+        height: auto;
+    }
+
+    .sideContent {
+        display: none;
+    }
+
+    .mainTableArea {
+        min-width: 500px;
+        width: 100%;
+        height: auto;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        min-width: 500px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "moniearners-module1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "start": "next start -p 8080",
+    "build-next": "cross-env NEXT_PUBLIC_FRAMEWORK=next next build",
+    "build": "yarn build-next",
+    "export": "yarn build && next export && mv out _static",
+    "lint": "eslint ./ --ext js,jsx,ts,tsx"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.88",
+    "@mui/material": "^5.8.5",
+    "@paystack/inline-js": "^2.12.6",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "antd": "^5.1.1",
+    "axios": "^1.4.0",
+    "cross-env": "^7.0.3",
+    "iconsax": "^0.0.1",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^3.1.2",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "ms": "^2.1.3",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-paystack": "^4.0.3",
+    "react-redux": "^8.0.5",
+    "react-toastify": "^9.1.2",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.1.5",
+    "eslint": "^8.32.0",
+    "eslint-config-next": "^13.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -1,0 +1,535 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color: #0D0D0D;
+    min-width: 280px;
+    width: 300px;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    border-radius: 0px 20px 20px 0px;
+    align-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    z-index: 10;
+}
+
+.logo{
+    margin-top: 40px;
+}
+
+.navButtonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    margin-top:50px;
+    font-size: 0.8rem;
+    line-height: 17px;
+    color: white !important;
+    min-height: 60vh !important;
+    flex-grow:1;
+}
+
+.navButtonContainer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hr {
+    border: 1px solid #717171;
+    height:1px;
+    width: 180px;
+    opacity: 0.5;
+}
+
+.navButtonContainer ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.navButtonContainer ul li:hover {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #D19D3B;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+}
+
+.navButtonContainer ul li:active {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #D19D3B;
+    color:white;
+}
+
+.active {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #D19D3B;
+    color:white;
+}
+
+.navButtonContainer ul li:link {
+    color:white;
+}
+
+.navButtonContainer ul li a{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/* table styles goes here */
+.tableContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    min-height: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    padding-top: 20px;
+
+}
+
+.TableTopButtonContainer {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    /* Default/gray/500 */
+    color: #6B7280;
+
+    /* MEd */
+
+    /* filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.02)); */
+
+    background: #FFFFFF;
+/* /shadow/base */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+}
+
+.logoutSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin-top:50px;
+    font-size: 01rem;
+    line-height: 17px;
+    color: white !important;
+    height: 20%;
+    margin-left: 0px;
+    pading-left: 0px;
+    width: 95%;
+    position: relative;
+
+}
+
+.logoutSection ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.logoutSection ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.logoutSection ul li:hover {
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #D19D3B;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+}
+
+.logoutSection ul li:active {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #D19D3B;
+    color:white;
+}
+
+.logoutSection ul li:link {
+    color:white;
+}
+
+
+/* Tablet Styles */
+@media screen and (max-width: 1280px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        background-color: #0D0D0D;
+        width: 250px;
+        height: 100%;
+        max-height: 100%;
+        border-radius: 0px 20px 20px 0px;
+        align-content: center;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        z-index: 10;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .logo{
+        margin-top: 40px;
+    }
+
+    .navButtonContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: center;
+        margin-top:30px;
+        font-size: 0.9rem;
+        line-height: 17px;
+        color: white !important;
+        height: 60%;
+    }
+
+
+    .navButtonContainer ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 0px;
+    }
+
+    .hr {
+        border: 1px solid #717171;
+        height:1px;
+        width: 90%;
+        opacity: 0.5;
+    }
+
+    .navButtonContainer ul li {
+        list-style-type: none;
+        margin-top: 5px;
+        padding: 0px;
+    }
+
+    .navButtonContainer ul li:hover {
+        list-style-type: none;
+        margin-top: 0px;
+        padding: 0px;
+        padding-right: 7px;
+
+        background-color: #D19D3B;
+        border-radius: 0px 10px 10px 0px;
+        color: white;
+    }
+
+    .navButtonContainer ul li:active {
+        list-style-type: none;
+        margin-top: 0px;
+        padding: 0px;
+        background-color: #D19D3B;
+        color:white;
+    }
+
+    .navButtonContainer ul li:link {
+        color:white;
+    }
+
+    /* table styles goes here */
+    .tableContainer {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        min-height: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        overflow-y: auto;
+        padding-top: 20px;
+    }
+
+
+    .TableTopButtonContainer {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        /* Default/gray/500 */
+        color: #6B7280;
+
+        /* MEd */
+
+        /* filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.02)); */
+
+        background: #FFFFFF;
+    /* /shadow/base */
+
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        border-radius: 6px;
+    }
+
+
+    .logoutSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        margin-top:50px;
+        font-size: 0.7rem;
+        line-height: 17px;
+        color: white !important;
+        height: 20%;
+        margin-left: 0px;
+        pading-left: 0px;
+        width: 95%;
+        position: relative;
+
+    }
+
+    .logoutSection ul {
+        list-style-type: none;
+        margin: 0px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .logoutSection ul li {
+        list-style-type: none;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .logoutSection ul li:hover {
+        list-style-type: none;
+        margin-top: 5px;
+        padding: 0px;
+        padding-right:10px;
+        background-color: #D19D3B;
+        border-radius: 0px 10px 10px 0px;
+        color: white;
+    }
+
+    .logoutSection ul li:active {
+        list-style-type: none;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #D19D3B;
+        color:white;
+    
+    }
+
+    .logoutSection ul li:link {
+        color:white;
+        
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .mainContainer {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        flex-direction: column;
+        margin: 0px;
+        background-color: #0D0D0D;
+        min-width: 130px;
+        width: 180px;
+        height: 100%;
+        max-height: 100%;
+        border-radius: 0px 10px 10px 0px;
+        align-content: center;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.06em;
+        z-index: 10;
+    }
+
+    .logo{
+        margin-top: 10px;
+        scale:0.5
+    }
+
+    .navButtonContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: center;
+        margin-top:0px;
+        font-size: 0.7rem;
+        line-height: 17px;
+        color: white !important;
+        height: 60%;
+    }
+    
+    .navButtonContainer ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .hr {
+        border: 1px solid #717171;
+        height:1px;
+        width: 70%;
+        opacity: 0.5;
+        position: relative;
+    }
+    
+    .navButtonContainer ul li {
+        list-style-type: none;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    
+    .navButtonContainer ul li:hover {
+        list-style-type: none;
+        margin-top: 0px;
+        padding: 0px;
+        background-color: #D19D3B;
+        border-radius: 0px 10px 10px 0px;
+        color: white;
+    }
+    
+    .navButtonContainer ul li:active {
+        list-style-type: none;
+        margin-top: 3px;
+        padding: 3px;
+        background-color: #D19D3B;
+        color:white;
+    }
+    
+    .navButtonContainer ul li:link {
+        color:white;
+    }
+
+    .hr {
+        border: 1px solid #717171;
+        height:1px;
+        width: 100%;
+        opacity: 0.5;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .logoutSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: flex-start;
+        margin-top:50px;
+        font-size: 0.7rem;
+        line-height: 17px;
+        color: white !important;
+        height: 20%;
+        margin-left: 0px;
+        width: 95%;
+        position: relative;
+
+    }
+    
+    .logoutSection ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .logoutSection ul li {
+        list-style-type: none;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    
+    .logoutSection ul li:hover {
+        list-style-type: none;
+        margin-top: 5px;
+        padding: 0px;
+        padding-right: 7px;
+        background-color: #D19D3B;
+        border-radius: 0px 10px 10px 0px;
+        color: white;
+    }
+    
+    .logoutSection ul li:active {
+        list-style-type: none;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #D19D3B;
+        color:white;
+    }
+    
+    .logoutSection ul li:link {
+        color:white;
+    }
+
+    
+    /* table styles goes here */
+    .tableContainer {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        min-height: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        overflow-y: auto;
+        padding-top: 20px;
+    
+    }
+    
+    .TableTopButtonContainer {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        /* Default/gray/500 */
+        color: #6B7280;
+    
+        /* MEd */
+    
+        /* filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.02)); */
+    
+        background: #FFFFFF;
+    /* /shadow/base */
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+        border-radius: 6px;
+    }
+    
+    
+}

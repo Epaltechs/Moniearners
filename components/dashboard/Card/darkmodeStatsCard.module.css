@@ -1,0 +1,142 @@
+.card {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 350px;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    padding: 5px 5px 5px 5px;
+    background-color: #0D0D0D;
+    border: 1px solid #0D0D0D;
+}
+
+.mainArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width:60px;
+    height:60px;
+    background: #EDE9FE;
+    border-radius: 100%;
+}
+
+.contentArea{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.contentArea h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.contentArea h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #9F9F9F;
+}
+
+@media screen and (max-width: 1144px) {
+    .card {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+        width: 200px;
+        height: 100px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.02);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    
+.contentArea{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.contentArea h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #000000;
+}
+
+.contentArea h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    color: #9F9F9F;
+}
+}

@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Qwitcher+Grypen:wght@700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #2A2E32 ;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px 30px 30px;
+}
+
+.logoContainer{
+    
+    /* margin-top: -80px; */
+}
+
+.paymentButton  {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 103px;
+    border:none;
+
+    width: 446px;
+    height: 52px;
+
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    /* primary color */
+
+    background: #D19D3B;
+    border-radius: 4px;
+}
+
+.sideTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.brief {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    flex: 1;
+    color: #ffffffa4;
+}
+
+.mainArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-items: center;
+    justify-self: center;
+    padding:50px;
+    width :100%
+}
+
+.formTitleDiv{
+    text-align: center;
+}
+
+.pageTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #D19D3B;
+}
+
+.subTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 0px;
+    margin: 0px;
+    color: #000000;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+.formContainer{
+    padding: 40px;
+    height:auto;
+    width: 600px;
+}
+
+.input {
+    width: 522px;
+    height: 50px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+}
+
+.button{
+    box-sizing: border-box;
+    width: 522px;
+    height: 67px;
+    background: #D19D3B;
+    border-radius: 10px;
+    color: #E6E6E6;    
+}
+
+.createnewproduct{
+    text-align: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.link{
+    color: #D19D3B;
+}
+.buttonText{
+    color: #E6E6E6;
+}
+
+.p{
+    padding: 10px;
+}
+
+.pinContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.pinInput {
+    width: 50px;
+    height: 50px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    margin-right: 40px;
+}
+
+.cardContainer {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.cardSelectionContainer label{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputMedium {
+    width: 450px;
+    height: 50px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    margin-right: 40px;
+}
+
+.inputSmall {
+    width: 200px;
+    height: 50px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    margin-right: 40px;
+}
+
+
+/* media Query for Sign in Page */
+   @media (max-width: 1000px){
+
+   
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+        height: 100vh;
+    }
+
+    .sidebar {
+        background-color: #2A2E32 ;
+        width: 100%;
+        margin:  auto;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px 30px 30px;
+        
+        
+    }
+   
+
+    .mainArea{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100vh;
+    
+        
+    
+}
+
+.input{
+    display: block;
+    
+    width: 100%;
+
+    
+}
+
+.formTitleDiv{
+   margin: auto;
+  justify-content: center;
+
+  width: 100%;
+  
+}
+.formContainer{
+    width: 100%
+    
+   
+    
+}
+
+.button{
+    width: 100%;
+    margin: auto;
+}
+    
+.signin{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.subTitle{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+
+.briefTextContainer{
+    /* display: none; */
+    width: 100%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.briefTextContainer h3{
+    font-size: 20px;
+}
+
+.briefTextContainer p{
+    text-align: justify;
+    font-size: 15px;
+}
+.logoContainer{
+    
+   
+}
+   }
+
+
+

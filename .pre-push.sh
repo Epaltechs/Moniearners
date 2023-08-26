@@ -1,0 +1,18 @@
+protected_branch='master'
+
+policy="\n\n[Policy] Never push code directly to the "$protected_branch" branch! (Prevented with pre-push hook.)\n\n"
+
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+do_exit(){
+  echo -e $policy
+  exit 1
+}
+
+if [ $current_branch = $protected_branch ]; then
+  do_exit
+fi
+
+unset do_exit
+
+exit 0

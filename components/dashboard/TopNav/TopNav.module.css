@@ -1,0 +1,259 @@
+.mainContainer{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 15%;
+    position: fixed;
+    height: 83px;
+    right: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.05);
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.mainArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.inputBox {
+    max-width: 800px;
+    width: 600px;
+    padding-left: 150px;
+}
+
+.notificationArea {
+    padding: 0px 50px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.userProfile{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 5px;
+/* identical to box height */
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #2F2F2F;
+}
+
+.userProfile h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.01em;
+
+    color: #2F2F2F;
+}
+
+.userProfile h6 {
+    margin: 0px;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0px;
+    text-align: right;
+    color: #D19D3B;
+    padding:0px;
+}
+
+.menuIcon{
+    display: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: flex-start;
+    padding-right: 30px;
+    margin-right: 30px;
+    width:400px;
+
+}
+
+.darkSwitchArea{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
+
+.switch{
+    background-color: black;
+    color: #2F2F2F;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1285px) {
+    .mainContainer{
+        width: 100%;
+        padding-left: 8%;
+        position: absolute;
+        height: 83px;
+        right: 0px;
+        top: 0px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.05);
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .menuIcon{
+        display: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        justify-self: flex-start;
+        padding-right: 30px;
+        margin-right: 30px;
+        width:50px;
+    }
+
+    /* .inputBox {
+        max-width: 800px;
+        width: 900px;
+        padding-left: 0px;
+    } */
+}
+
+/* tablet styles */
+@media screen and (max-width: 963px) {
+    .menuIcon{
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        flex-direction: row;
+        justify-content: flex-start;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        justify-self: center;
+        padding-right: 30px;
+    }
+
+    .mainContainer{
+        width: 100%;
+        padding-left: 20px;
+        position: absolute;
+        height: 83px;
+        right: 0px;
+        top: 0px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.05);
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    
+.inputBox {
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 50px;
+
+}
+
+
+
+.notificationArea {
+    padding: 20px 50px 30px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.userProfile{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #2F2F2F;
+
+}
+
+.userProfile h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.01em;
+
+    color: #2F2F2F;
+}
+
+.userProfile h6 {
+    margin-right: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 12px;
+    text-align: right;
+    letter-spacing: 0.01em;
+
+    color: #D19D3B;
+}
+}

@@ -1,0 +1,8 @@
+.MuiSlider-root {
+    color: #20b2aa;
+    border-radius: 50px;
+}
+
+.MuiSlider-root:hover {
+    color: #2e8b57;
+}

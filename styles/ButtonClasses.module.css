@@ -1,0 +1,152 @@
+.primary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  gap: 10px;
+  width: 180px;
+  height: 47px;
+  background: #d19d3b;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.supportBtn {
+  width: 382px;
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  gap: 10px;
+  background: #d19d3b;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.smallBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  gap: 10px;
+  border: none;
+  width: 164px;
+  height: 47px;
+  color: white;
+  background: #d19d3b;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.medBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  gap: 10px;
+  border: none;
+  width: 194px;
+  height: 47px;
+  color: white;
+  background: #d19d3b;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+@media only screen and (max-width: 844px) {
+  .medBtn {
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 40px;
+    gap: 10px;
+    border: none;
+    width: 194px;
+    height: 47px;
+    color: white;
+    background: #d19d3b;
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .smallBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 40px;
+    gap: 10px;
+    border: none;
+    width: 164px;
+    height: 47px;
+    color: white;
+    background: #d19d3b;
+    border-radius: 10px;
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 844px) {
+  .btnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .smallBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    width: auto;
+    height: 47px;
+    color: white;
+    background: #d19d3b;
+    border-radius: 10px;
+  }
+
+  .supportBtn {
+    width: 250px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 40px;
+    gap: 10px;
+    background: #d19d3b;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+  
+}

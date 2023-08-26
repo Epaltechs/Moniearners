@@ -1,0 +1,174 @@
+.content{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.videoBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+}
+
+.volumebox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    
+    
+}
+
+.volume{
+    width: 32.22px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid #FFFFFF;
+    /* backdrop-filter: blur(5px); */
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volumeBar, .volumeBar1{
+    width: 8px;
+    height: 1200px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    /* margin-bottom: 5px; */
+}
+
+.volumeBar1{
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+}
+
+.speaker{
+    margin-top: 8px;
+}
+
+.speakerIcon{
+    color: #FFFFFF;
+    width: 20px;
+}
+
+.timerBox{
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    padding-top: 90px;
+    padding-bottom: 50px;
+
+    /* padding-bottom: 120px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.vidLength{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.vidLength p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+}
+
+.vidtimer, .vidtimer1{
+    width: 600px;
+    height: 8px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.vidtimer{
+    display: flex;
+    align-items: center;
+}
+
+.vidtimer1{
+    width: 200px;
+    background: #ffffff;
+    margin: 0px;
+}
+.vidtimer2{
+    width: 15px;
+    height: 13px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0px;
+    filter: blur(2px);
+
+}
+
+
+
+.vidStart, .vidtimerBox, .vidEnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon{
+    background: #C4C4C4;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.playIcon{
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    
+    
+   
+}
+
+
+@media (max-width: 1000px){
+    .videoBox, .vidLength, .vidtimer{
+        width: 100%;
+    }
+    .CountBox{
+        width: 100%;
+    }
+}

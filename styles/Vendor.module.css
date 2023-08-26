@@ -1,0 +1,400 @@
+.container {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+
+.titleRow{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #292D32;
+  padding: 0px 60px;
+}
+
+.fistCol{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 50%;
+}
+
+.title1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 50px;
+  max-width:90%;
+}
+
+.title1 h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.02em;
+  padding-top: 50px;
+  color: #FFFFFF;
+}
+
+.title1 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+
+
+.sectionColumn {
+  margin: 0px 0px;
+  padding: 60px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.sectionRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerMain {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.containerMain ul {
+  margin: 0px 0px 0px 100px;
+  list-style-image: url("../public/tick-circle.png");
+}
+
+.textSection2 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.08em;
+  color: #000000;
+  margin-left: 50px;
+}
+
+
+
+.heading2 {
+  width: 100%;
+  height: 116px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+.contentContainer {
+  width: 100%;
+  height: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 50px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+@media (max-width: 1280px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .titleRow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292D32;
+    padding: 0px 10px;
+  }
+
+  .fistCol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+  }
+
+  .title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 50px;
+    max-width:600px;
+  }
+
+  .title1 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    max-width: 600px;
+    padding-top: 50px;
+    color: #FFFFFF;
+  }
+
+  .title1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 300px;
+
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+  }
+
+
+  .heading2 {
+    width: 100%;
+    height: 116px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .textSection2 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    color: #000000;
+    padding: 0px 80px;
+  }
+
+  .containerMain {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 80px;
+  }
+
+  .containerMain ul {
+    margin: 0px 0px 0px 100px;
+    list-style-image: url("../public/tick-circle.png");
+  }
+
+  .textSection2 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    color: #000000;
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 844px) {
+
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  .titleRow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292D32;
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+
+  .fistCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    max-width: 300px;
+  }
+
+  .title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    max-width: 90%;
+  }
+
+  .title1 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    max-width: 500px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    padding-top: 0px 0px;
+    color: #FFFFFF;
+  }
+
+  .title1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1rem;
+    letter-spacing: 0.02em;
+    max-width: 450px;
+    color: #FFFFFF;
+  }
+
+  .medBtn{
+    display: none;
+  }
+
+  .sectionColumn {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  .containerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: flex-end;
+    align-content: center;
+  }
+
+  .textSection2 {
+    font-family: "Inter";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    color: #000000;
+    padding: 0px 0px;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 10px;
+  }
+
+  .textSection2 ul{
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    
+  }
+
+  .containerMain ul {
+    margin: 0px 0px 0px 40px;
+    list-style-image: url("../public/tick-circle.png");
+  }
+
+
+  .heading2 {
+    width: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+  }
+
+  .contentContainer {
+    width: 100%;
+    height: auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    color: #000000;
+  }
+
+}

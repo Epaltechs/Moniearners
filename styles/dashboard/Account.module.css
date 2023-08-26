@@ -1,0 +1,261 @@
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 100%;
+  background-color: #f7f8fa;
+}
+
+.mainContainer {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+}
+
+.mainArea {
+  background-color: #80858b;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pgTitles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  height: 60px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.pgTitles h3 {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.calContainer {
+  margin-top: 0px;
+  min-width: 100px;
+}
+
+.calTitle {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.calTitle h6 {
+  background-color: white;
+  padding: 8px 10px 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+
+.dropDow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 25px 25px;
+  width: 150px;
+  background: #ffffff;
+  position: absolute;
+  top: 205px;
+}
+
+.dropDow ul {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Default/gray/700 */
+  color: #374151;
+  list-style: none;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+.dropDow ul li {
+  padding-top: 10px;
+}
+
+.mainTableArea {
+  width: 100%;
+}
+
+.mainTable {
+  width: 80%;
+}
+
+.mainSectionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  overflow: auto;
+}
+
+.personalSection {
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.personalSection form {
+  background-color: #ffffff;
+  padding: 20px;
+  padding-left: 0px;
+  border-radius: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.inputArea label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inputArea input {
+  width: 97%;
+  height: 52px;
+
+  background: #ffffff;
+  border: 0.3px solid #d0d0d0;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+
+.input {
+  width: 98%;
+  height: 50px;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8c8c8c;
+}
+
+.profileSection {
+  width: 23%;
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 200px;
+}
+
+.sectionHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  padding-left: 15px;
+  padding-top: 0px;
+  margin: 0px;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* tablet screen sizes */
+@media (max-width: 1480px) {
+}
+
+/* mobile screen sizes */
+@media (max-width: 844px) {
+  .mainContainer {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .contentArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;
+    background-color: #f7f8fa;
+  }
+
+  .mainSectionContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .personalSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .profileSection {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 200px;
+  }
+}

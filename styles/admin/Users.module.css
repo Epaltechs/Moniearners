@@ -1,0 +1,95 @@
+
+.contentArea{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;
+    background-color: #F7F8FA;
+}
+
+.pgTitles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+.calContainer {
+    margin-top: 0px;
+    min-width: 100px;
+}
+
+.calTitle{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.calTitle h6 {
+    background-color: white;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+
+
+.dropDow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 25px 25px;
+    width: 150px;
+    background: #FFFFFF;
+    position: absolute;
+    top:205px;
+}
+
+.dropDow ul {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    /* Default/gray/700 */
+    color: #374151;
+    list-style: none;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.dropDow ul li {
+    padding-top: 10px;
+}
+
+
+.mainTableArea {
+    width: 100%;
+}
+.mainTable {
+    width: 80%;
+}
+
+.tableTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    /* /shadow/base */
+    padding:10px;
+    padding-left: 20px;
+    color: #000000;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0), 0px 1px 2px rgba(0, 0, 0, 0);
+    border-radius: 6px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
